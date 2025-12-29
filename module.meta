@@ -1,0 +1,21 @@
+# Vulkan Module Metadata
+# Graphics API for high-performance rendering
+
+[info]
+name = vulkan
+version = 1.0.0
+description = Vulkan graphics API bindings for high-performance rendering
+
+[libs]
+# Import libraries for linking
+windows = vulkan-1.lib
+linux = libvulkan.so
+macos = libvulkan.dylib
+
+[dlls]
+# Runtime libraries (usually provided by GPU drivers)
+# Note: vulkan-1.dll is typically in system PATH
+# windows = vulkan-1.dll
+
+[dependencies]
+# Vulkan requires GLFW for window creation (optional)
