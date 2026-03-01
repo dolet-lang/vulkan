@@ -7,10 +7,14 @@ version = 1.0.0
 description = Vulkan graphics API bindings for high-performance rendering
 
 [libs]
-# Import libraries for linking
-windows = vulkan-1.lib
-linux = libvulkan.so
-macos = libvulkan.dylib
+# Import libraries for linking (relative to module directory)
+windows = windows/vulkan-1.lib
+linux = linux/libvulkan.so
+macos = macos/libvulkan.dylib
+
+[defs]
+# Definition files for generating import libraries (if .lib not present)
+windows = windows/vulkan-1.def
 
 [dlls]
 # Runtime libraries (usually provided by GPU drivers)
