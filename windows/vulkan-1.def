@@ -64,6 +64,8 @@ EXPORTS
     vkGetPhysicalDeviceSurfaceFormatsKHR
     vkGetPhysicalDeviceSurfacePresentModesKHR
     vkBindBufferMemory
+    vkBindImageMemory
+    vkGetImageMemoryRequirements
     vkCmdBindVertexBuffers
     vkCmdPushConstants
     vkCmdSetScissor
