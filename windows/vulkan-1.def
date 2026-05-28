@@ -67,6 +67,7 @@ EXPORTS
     vkBindImageMemory
     vkGetImageMemoryRequirements
     vkCmdBindVertexBuffers
+    vkCmdBindIndexBuffer
     vkCmdPushConstants
     vkCmdSetScissor
     vkCmdSetViewport
