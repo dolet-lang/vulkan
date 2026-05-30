@@ -74,3 +74,14 @@ EXPORTS
     vkGetBufferMemoryRequirements
     vkGetPhysicalDeviceMemoryProperties
     vkResetCommandBuffer
+    vkCmdPipelineBarrier
+    vkCmdCopyBufferToImage
+    vkCreateSampler
+    vkDestroySampler
+    vkCreateDescriptorSetLayout
+    vkDestroyDescriptorSetLayout
+    vkCreateDescriptorPool
+    vkDestroyDescriptorPool
+    vkAllocateDescriptorSets
+    vkUpdateDescriptorSets
+    vkCmdBindDescriptorSets
