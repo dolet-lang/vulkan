@@ -16,7 +16,7 @@ This library provides low-level bindings to the Vulkan API, enabling direct acce
 
 - Complete Vulkan core API bindings (698 functions)
 - Auto-generated from `vulkan_core.h`
-- Direct FFI calls to `vulkan-1` library
+- Direct FFI calls through the `dolet-vulkan-1` import library on Windows
 - Support for Vulkan extensions (KHR, EXT, NV, AMD, etc.)
 
 ## Usage

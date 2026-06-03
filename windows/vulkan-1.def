@@ -75,6 +75,7 @@ EXPORTS
     vkGetPhysicalDeviceMemoryProperties
     vkResetCommandBuffer
     vkCmdPipelineBarrier
+    vkCmdBlitImage
     vkCmdCopyBufferToImage
     vkCreateSampler
     vkDestroySampler

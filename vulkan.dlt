@@ -2,7 +2,7 @@
 # Auto-generated from vulkan_core.h
 # Total functions: 698
 
-extern lib "vulkan-1":
+extern lib "dolet-vulkan-1":
 
     fun vkAcquireDrmDisplayEXT(physicalDevice: i64, drmFd: i32, display: i64) -> i32
     fun vkAcquireNextImage2KHR(device: i64, pAcquireInfo: i64, pImageIndex: i64) -> i32

@@ -8,7 +8,7 @@ description = Vulkan graphics API bindings for high-performance rendering
 
 [libs]
 # Import libraries for linking (relative to module directory)
-windows = windows/vulkan-1.lib
+windows = dolet-vulkan-1.lib
 linux = linux/libvulkan.so
 macos = macos/libvulkan.dylib
 
