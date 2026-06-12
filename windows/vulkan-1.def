@@ -42,6 +42,7 @@ EXPORTS
     vkEndCommandBuffer
     vkCmdBeginRenderPass
     vkCmdEndRenderPass
+    vkCmdClearAttachments
     vkCmdBindPipeline
     vkCmdDraw
     vkCmdDrawIndexed
